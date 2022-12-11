@@ -1,0 +1,104 @@
+body{
+    background-color:#fff5e0;
+}
+.navbar-brand{
+    color: white;
+    font-weight: 900;
+}
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+    color: var(rgb(255 253 253 / 90%));
+}
+.navbar-toggler{
+    color: white;
+    background-color: white;
+}
+.navbar-nav{
+    --bs-nav-link-color: rgb(246 243 243);
+    font-weight: 600;
+}
+.dropdown-menu[data-bs-popper] {
+    left: -60px;
+  }
+a{
+    text-decoration: none;
+}
+.bg-img{
+    width: 100%;
+    height: 75vh;
+    background: url(images/bg_img1.avif),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1.7)) no-repeat center;
+    background-blend-mode: overlay; 
+    background-size: 100vw;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    height: 67vh;
+    margin: 0 auto;
+}
+.font_clr{
+    color: white;
+}
+.Sub_head{
+    margin: 20px 70px;
+    padding: 10px 50px;
+}
+.Sub_head .h1{
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.Sub_head .h2{
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.pick_up{
+    margin: 50px 0 50px 10%;
+    padding: 20px;
+}
+.img-fluid{
+    height: 40vh;
+}
+.btn_bg{
+    --bs-btn-border-color: #202124;
+    border: 2px solid #31b57b;
+}
+.btn_flex{
+    display: flex;
+}
+.mg_lft{
+    margin-left: 5px;
+}
+.carousel {
+    margin: 16px 0px 20px 53px;
+}
+.top_Cat{
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+}
+.container_cat{
+    margin-bottom: 20px;
+}
+.row_bg
+{
+    background-color: white;
+}
+.card{
+    border: none;
+}
+.col-md-3 .card{
+    cursor: pointer;
+}
+.card-img-top{
+    width: auto;
+}
+.rating_star{
+    margin: -13px 0 13px 0;
+    display: flex;
+}
+.checked{
+    color: gold;
+}

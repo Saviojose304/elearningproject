@@ -1,0 +1,45 @@
+body {
+  background-color: #fff5e0;
+}
+.navbar-brand {
+  color: white;
+  font-weight: 900;
+}
+.navbar-nav .show > .nav-link,
+.navbar-nav .nav-link.active {
+  color: var(rgb(255 253 253 / 90%));
+}
+.navbar-toggler {
+  color: white;
+  background-color: white;
+}
+.navbar-nav {
+  --bs-nav-link-color: rgb(246 243 243);
+  font-weight: 600;
+}
+.dropdown-menu[data-bs-popper] {
+  left: -60px;
+}
+a {
+  text-decoration: none;
+}
+
+input {
+  width: 90%;
+  margin-bottom: 25px;
+  padding: 0px 30px 15px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  color: #000;
+}
+input:focus{
+    border-bottom: 1px solid rgb(22, 216, 193);
+}
+.icon{
+    position: absolute;
+}
+.red-text{
+  color: red;
+}
